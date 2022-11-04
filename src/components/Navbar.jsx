@@ -18,7 +18,7 @@ function Navbar() {
               {" "}
               Home{" "}
             </Link>
-            <Link to="/" className="btn bth-ghost btn-sm rounded-btn">
+            <Link to="/about" className="btn bth-ghost btn-sm rounded-btn">
               {" "}
               About{" "}
             </Link>

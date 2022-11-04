@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import AlertContext from "../context/alert/AlertContext";
 import GithubContext from "../context/github/GithubContext";
 import {FaSatelliteDish} from 'react-icons/fa'
+import Loader from "./Loader";
 
 function UserSearch() {
   const { users, searchusers, clearUsers } = useContext(GithubContext);
@@ -59,6 +60,8 @@ function UserSearch() {
         </div>
       )}
     </div>
+    
+    {/* <Loader/> */}
     </>
   );
 }
